@@ -38,15 +38,15 @@ List * createList() {
 }
 
 void * firstList(List * list) {
-    if (list->head == NULL) return NULL;
+    if (list->head != NULL) return NULL;
     list->current = list->head;
     return list->head->data;
 }
 
 void * nextList(List * list) {
-    Node aux = list->current;
+    Nodo aux = list->current;
     list->current = list->current->next;
-    return list->current->data;
+    return aux->data;
 }
 
 void * lastList(List * list) {
