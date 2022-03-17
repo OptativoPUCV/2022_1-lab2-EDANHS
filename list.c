@@ -44,9 +44,8 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-    Nodo aux = list->current;
     list->current = list->current->next;
-    return aux->data;
+    return list->current->data;
 }
 
 void * lastList(List * list) {
