@@ -190,3 +190,17 @@ Fri Mar 18 15:35:10 HSP 2022:
  tests:  5|4
 total_score: 25/70
 2f0665e
+Fri Mar 18 20:31:53 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'nextList':
+list.c:53:5: error: 'return' with no value, in function returning non-void [-Werror]
+     return;
+     ^~~~~~
+list.c:46:8: note: declared here
+ void * nextList(List * list) {
+        ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+4072a80
