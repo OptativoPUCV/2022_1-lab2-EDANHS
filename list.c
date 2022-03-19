@@ -59,7 +59,7 @@ void * lastList(List * list) {
         aux = aux->next;
     }
     list->tail = aux;
-    return aux->data;
+    return aux->prev->data;
 }
 
 void * prevList(List * list) {
