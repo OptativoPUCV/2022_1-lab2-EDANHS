@@ -306,3 +306,9 @@ list.c:63:5: error: expected ';' before '}' token
      ^
 Compilation failed
 ae12b89
+Sat Mar 19 11:59:25 HSP 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|5
+total_score: 15/70
+1820cc4
