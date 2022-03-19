@@ -416,3 +416,13 @@ Sat Mar 19 13:30:15 HSP 2022:
  tests:  11|1
 total_score: 55/70
 0a9e119
+Sat Mar 19 13:31:14 HSP 2022: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:116:9: error: expected ';' before 'free'
+         free(list->current);
+         ^~~~
+Compilation failed
+1ef8d69
