@@ -296,3 +296,13 @@ Sat Mar 19 11:53:39 HSP 2022:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 e95b808
+Sat Mar 19 11:59:10 HSP 2022: 
+ list.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'lastList':
+list.c:63:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation failed
+ae12b89
