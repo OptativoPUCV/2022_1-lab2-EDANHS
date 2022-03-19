@@ -50,7 +50,6 @@ void * nextList(List * list) {
     if(list->current == NULL) return NULL;
     if((list->current->next != NULL) && (list->current->next->data != NULL)){
         list->current = list->current->next;
-        list->tail = list->current;
         return list->current->data;
     }
     return NULL;
